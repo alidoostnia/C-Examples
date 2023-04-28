@@ -1,5 +1,4 @@
 #include <iostream>
- 
 using namespace std;
  
 int main () {
@@ -23,3 +22,14 @@ int main () {
 
    return 0;
 }
+
+//Expected output on my device:
+//Value of var :3000
+//Value available at *ptr: 3000
+//Value available at *&ptr: 0x7ffef6273e94
+//Value available at **pptr: 3000
+//Value available at **&pptr: 0x7ffef6273e94
+//Value available at *pptr: 0x7ffef6273e94
+//Value available at pptr: 0x7ffef6273e98
+//Value available at ptr: 0x7ffef6273e94
+
